@@ -1,0 +1,72 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - solhint > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > @0x/subproviders > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > @compound-finance/sol-tracing-utils > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > @compound-finance/sol-coverage > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - solhint > eslint > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > @0x/subproviders > @0x/assert > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > @0x/subproviders > @0x/utils > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > @0x/subproviders > @0x/web3-wrapper > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > ganache-core > async > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > web3-provider-engine > async > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > @compound-finance/sol-tracing-utils > @0x/utils > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > @compound-finance/sol-tracing-utils > @0x/web3-wrapper > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > @compound-finance/sol-tracing-utils > @0x/subproviders > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > @compound-finance/sol-tracing-utils > @0x/dev-utils > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > @compound-finance/sol-tracing-utils > @0x/sol-resolver > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > @compound-finance/sol-tracing-utils > @0x/sol-compiler > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - solhint > eslint > table > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > @0x/subproviders > @0x/assert > @0x/utils > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > @compound-finance/sol-tracing-utils > @0x/web3-wrapper > @0x/assert > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > jest-cli > jest-config > @babel/core > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > jest-cli > jest-config > @babel/core > @babel/types > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > jest-cli > jest-config > @babel/core > @babel/generator > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > jest-cli > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babelify > babel-core > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-types > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babelify > babel-core > babel-generator > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > ganache-core > web3-provider-engine > eth-block-tracker > json-rpc-engine > babelify > babel-core > babel-register > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
+    - eth-saddle > ganache-core > lodash:
+        patched: '2023-03-21T18:19:40.090Z'
