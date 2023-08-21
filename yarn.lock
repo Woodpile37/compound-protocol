@@ -1173,6 +1173,11 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
+"@snyk/protect@latest":
+  version "1.1192.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1192.0.tgz#979ab2af8df0cf8a02ef98f8e1757adb21792880"
+  integrity sha512-fcTYk3ai0YNQdqyEfDIeQ+CDo2I145dZDc0pePc+4tPIaeXajC+OGpxDbp98KMQYjgWHRQ/sHa+oeT2XS3i0Qw==
+
 "@solidity-parser/parser@^0.13.2":
   version "0.13.2"
   resolved "https://registry.yarnpkg.com/@solidity-parser/parser/-/parser-0.13.2.tgz#b6c71d8ca0b382d90a7bbed241f9bc110af65cbe"
@@ -11727,9 +11732,9 @@ wide-align@^1.1.0:
     string-width "^1.0.2 || 2"
 
 word-wrap@~1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
-  integrity sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.4.tgz#cb4b50ec9aca570abd1f52f33cd45b6c61739a9f"
+  integrity sha512-2V81OA4ugVo5pRo46hAoD2ivUJx8jXmWXfUkY4KFNw0hEptvN0QfH3K4nHiwzGeKl5rFKedV48QVoqYavy4YpA==
 
 wordwrap@^1.0.0:
   version "1.0.0"
